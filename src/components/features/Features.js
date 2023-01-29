@@ -15,7 +15,7 @@ const Features = () => {
       <div className="grid grid-cols-3 gap-20">
         <Card
           title="Frontend Development"
-          des="I built some webpages and application using React"
+          des="I built some web pages and application using React"
           icon={<FaReact />}
         />
         <Card
