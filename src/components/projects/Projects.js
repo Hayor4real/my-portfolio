@@ -6,6 +6,8 @@ import {
   projectTwo,
   projectThree,
   projectFour,
+  projectFive,
+  projectSix,
 } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
@@ -17,48 +19,59 @@ const Projects = () => {
     >
       <div className="flex justify-center items-center text-center">
         <Title
-          title="Visit My PORTFOLIO AND KEEP YOUR FEEDBACK"
+          title="Visit My PORTFOLIO AND LET ME KNOW YOUR FEEDBACK"
           des="My Personal Projects"
         />
       </div>
-      <div className="grid grid-cols-3 gap-14">
-        <ProjectsCard
-          title="ADMIN-DASHBOARD-APP"
-          des="An Admin dash board fullstack application using MERN, frontend consist of material ui for styling, material
-          data grid for tables, nivo for charts, Redux toolkit for state management , Redux toolkit query for making
-          API calls while backend is node js, express js and Mongoose for managing mongodb."
-          src={projectOne}
-        />
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
+        
 
         <ProjectsCard
           title="ECOMMERCE APPLICATION"
-          des="A fullstack ecommerce application using React for the frontend .An external database is used and
-          connected to via fetch API and responds completely to user interaction while backend is node, express js
-          and mongoose for managing mongodb. "
+          des="A fullstack ecommerce application.We use tools such as React for front end and Express / Nodejs to handle the server side of our application. "
           src={projectTwo}
+          link="https://my-ecommerce-application-website.onrender.com"
+          github="https://github.com/Hayor4real/Fullstack-project-1"
         />
 
         <ProjectsCard
           title="CAR BOOKING APPLICATION"
           des="This is a fully react responsive car rental website design using mordern UI and UX using React"
           src={projectThree}
+          link="https://car-booking-application-germany.onrender.com"
+          github="https://github.com/Hayor4real/car-rental"
+        />
+        <ProjectsCard
+          title="ADMIN-DASHBOARD-APP"
+          des="An Admin dash board fullstack application using MERN"
+          src={projectOne}
+          link="https://admin-frontend-bz42.onrender.com"
+          github="https://github.com/Hayor4real/Admin-Dashboard-App"
         />
         <ProjectsCard
           title="SHOPPING-CART"
-          des="This is a project with react context api for state managment used to build an E-commerce shopping cart. The goal of the project was to teach how to use react for state management"
+          des="This is a project with react context api for state managment used to build an E-commerce shopping cart."
           src={projectFour}
+          link="https://react-shopping-items.netlify.app"
+          github="https://github.com/Hayor4real/shopping-cart-context-api"
         />
+
+          
 
         <ProjectsCard
           title="RESUME GENERATOR APPLICATION"
           des="This application helps user to generate CV by filling the fields.The goal of the project was to teach advanced HTML5 and CSS3 and the fundamental of JavaScripts concepts"
-          src={projectOne}
+          src={projectFive}
+          link="https://hayor4real.github.io/Cv-Generator-App"
+          github="https://github.com/Hayor4real/Cv-Generator-App"
         />
 
         <ProjectsCard
-          title="FRIENDS CONTACTS APP"
-          des="A friends list application where a user can add friends from the input field, i utilised Js DOM manipulation to come up with this application"
-          src={projectOne}
+          title="Calculator APPLICATION"
+          des="This application helps user to use a calculator.The goal of the project was to teach advanced HTML5 and CSS3 and the fundamental of JavaScripts concepts"
+          src={projectSix}
+          link="https://hayor4real.github.io/Project-4-Brainnest"
+          github="https://github.com/Hayor4real/Project-4-Brainnest"
         />
       </div>
     </section>
