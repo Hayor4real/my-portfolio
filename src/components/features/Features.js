@@ -12,7 +12,7 @@ const Features = () => {
       className="w-full h-[800px] py-20  border-b-[1px] border-b-black"
     >
       <Title title="Features" des="what I Do" />
-      <div className="grid grid-cols-3 gap-20">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
         <Card
           title="Frontend Development"
           des="I built some web pages and application using React"
@@ -23,11 +23,8 @@ const Features = () => {
           des="I built some game application using Javascipts"
           icon={<RiGamepadLine />}
         />
-        <Card
-          title="Ux design"
-          des="I know the basic of Ux Design and hope to learn more"
-          icon={<SiAntdesign />}
-        />
+        
+        
       </div>
     </section>
   );
