@@ -13,8 +13,6 @@ const Card = ({ title, des, icon }) => {
               <>
                 <span className="w-full h-[2px] rounded-lg bg-designColor inline-flex"></span>
                 <span className="w-full h-[2px] rounded-lg bg-designColor inline-flex"></span>
-                <span className="w-full h-[2px] rounded-lg bg-designColor inline-flex"></span>
-                <span className="w-full h-[2px] rounded-lg bg-designColor inline-flex"></span>
               </>
             )}
           </div>
