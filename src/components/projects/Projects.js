@@ -24,11 +24,11 @@ const Projects = () => {
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
-        
-
         <ProjectsCard
           title="ECOMMERCE APPLICATION"
-          des="A fullstack ecommerce application.We use tools such as React for front end and Express / Nodejs to handle the server side of our application. "
+          des="A fullstack ecommerce application. 
+          Technologies used: 
+          HTML,CSS,ReactJS,NodeJS,ExpressJS,MongoDB"
           src={projectTwo}
           link="https://my-ecommerce-application-website.onrender.com"
           github="https://github.com/Hayor4real/Fullstack-project-1"
@@ -36,27 +36,30 @@ const Projects = () => {
 
         <ProjectsCard
           title="CAR BOOKING APPLICATION"
-          des="This is a fully react responsive car rental website design using mordern UI and UX using React"
+          des="This is a fully react responsive car rental website design using mordern UI and UX using.
+          Technologies used: 
+          HTML,CSS,ReactJS"
           src={projectThree}
           link="https://car-booking-application-germany.onrender.com"
           github="https://github.com/Hayor4real/car-rental"
         />
         <ProjectsCard
           title="ADMIN-DASHBOARD-APP"
-          des="An Admin dash board fullstack application using MERN"
+          des="An Admin dash board fullstack application. 
+          Technologies used: 
+          HTML, Material UI CSS, ReactJS, NodeJS, ExpressJS, MongoDB"
           src={projectOne}
           link="https://admin-frontend-bz42.onrender.com"
           github="https://github.com/Hayor4real/Admin-Dashboard-App"
         />
         <ProjectsCard
           title="SHOPPING-CART"
-          des="This is a project with react context api for state managment used to build an E-commerce shopping cart."
+          des="This is a project with react context api for state managment used to build an E-commerce shopping cart.
+          Technologies: HTML, CSS, ReactJS "
           src={projectFour}
           link="https://react-shopping-items.netlify.app"
           github="https://github.com/Hayor4real/shopping-cart-context-api"
         />
-
-          
 
         <ProjectsCard
           title="RESUME GENERATOR APPLICATION"
