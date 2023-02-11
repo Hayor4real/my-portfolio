@@ -1,4 +1,4 @@
-# Car Rental Application
+# My professional portfolio
 
 This repository contains a professional porfolio using the React Application. Please follow the instructions to set it up
 
