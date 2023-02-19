@@ -8,6 +8,9 @@ import {
   projectFour,
   projectFive,
   projectSix,
+  projectSeven,
+  projectEight,
+  projectNine,
 } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
@@ -71,10 +74,31 @@ const Projects = () => {
 
         <ProjectsCard
           title="Calculator APPLICATION"
-          des="This application helps user to use a calculator.The goal of the project was to teach advanced HTML5 and CSS3 and the fundamental of JavaScripts concepts"
+          des="This application helps user to use a calculator and search by city feature.The goal of the project was to teach advanced HTML5 and CSS3 and the fundamental of JavaScripts concepts"
           src={projectSix}
           link="https://hayor4real.github.io/Project-4-Brainnest"
           github="https://github.com/Hayor4real/Project-4-Brainnest"
+        />
+        <ProjectsCard
+          title="Weather APPLICATION"
+          des="This application helps user to predict weather condition and search by city feature .The goal of the project was to teach advanced HTML5 and CSS3 and the fundamental of JavaScripts concepts"
+          src={projectSeven}
+          link="https://hayor4real.github.io/A-Weather-Project"
+          github="https://github.com/Hayor4real/A-Weather-Project"
+        />
+        <ProjectsCard
+          title="Todo APPLICATION"
+          des="This application is a todo app which helps user to list of tasks that needs to complete .The goal of the project was to teach advanced HTML5 and CSS3 and the fundamental of JavaScripts concepts"
+          src={projectEight}
+          link="https://hayor4real.github.io/TODO-APP"
+          github="https://github.com/Hayor4real/TODO-APP"
+        />
+        <ProjectsCard
+          title="Role Playing Game"
+          des="This is a game in which a user can  click a button to role a dice and attach score is deducted from opponent health.The goal of the project was to teach advanced HTML5 and CSS3 and the fundamental of JavaScripts concepts"
+          src={projectNine}
+          link="https://hayor4real.github.io/Role-Playing-Game"
+          github="https://github.com/Hayor4real/Role-Playing-Game"
         />
       </div>
     </section>

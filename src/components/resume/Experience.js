@@ -24,10 +24,10 @@ const Experience = () => {
             des="Developed websites using React,HTML5/CSS3 and Javascripts ES6 and React"
           />
           <ResumeCard
-            title=" Computer studies ( febuary 2017 -  febuary 2018)"
-            subTitle="Taught students basic computer studies and how to use the computer"
+            title=" Internship ( febuary 2017 -  febuary 2018)"
+            subTitle="Iron steel International company"
             result="Nigeria"
-            des="How to use the computer"
+            des="Installation of car port of different styles, sizes for swimming pool rest cover and door way shade beautification"
           />
         </div>
       </div>
