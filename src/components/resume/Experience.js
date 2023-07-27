@@ -18,11 +18,27 @@ const Experience = () => {
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Freelance"
-            subTitle="Frontend developer- (2020 - Present)"
+            title="Frontend Engineer(Internship) (April 2023 - June 2023)"
+            subTitle="Hyundai Mobis Parts Europe N.V, Zweigniederlassung"
             result="Germany"
-            des="Developed websites using React,HTML5/CSS3 and Javascripts ES6 and React"
+            des="Implement frontend components and services, especially for image segmentation
+            editing"
           />
+          <ResumeCard
+            title="UX/UI Design Basics Teaching Assistant(Volunteering)"
+            subTitle="ReDi School of Digital Intergration"
+            result="Germany"
+            des="Coordinated with the ReDI team to improve the courses and the student and
+            teacher experience."
+          />
+
+          <ResumeCard
+            title="IT Support Engineer"
+            subTitle="Hollactech"
+            result="Nigeria"
+            des="Integration of home and office device appliances into the ELAN syste"
+          />
+
           <ResumeCard
             title=" Internship ( febuary 2017 -  febuary 2018)"
             subTitle="Iron steel International company"

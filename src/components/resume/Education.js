@@ -20,7 +20,7 @@ const Education = () => {
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="UX/UI Design Basics"
-            subTitle="Redi School of Digital Integration (March 2023 - Present)"
+            subTitle="Redi School of Digital Integration (March 2023 - July 2023)"
             result="In view"
             des="The goal is to learn the fundamental of UX Design as a frontend developer"
           />
