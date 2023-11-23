@@ -18,6 +18,13 @@ const Experience = () => {
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
+            title="Software Developer (Training) (August 2023 - March 2024)"
+            subTitle="Boolean UK"
+            result="United Kingdom"
+            des="Learned the fundamentals of full stack web development with curated exercises and mentoring daily."
+          />
+
+          <ResumeCard
             title="Frontend Engineer(Internship) (April 2023 - June 2023)"
             subTitle="Hyundai Mobis Parts Europe N.V, Zweigniederlassung"
             result="Germany"
